@@ -1,0 +1,11 @@
+{
+  "paths": {
+    "contracts": "/Users/alexfrag/Documents/Development/NEO/Workshops/token-workshop/one/contracts",
+    "generated": "/Users/alexfrag/Documents/Development/NEO/Workshops/token-workshop/one/generated"
+  },
+  "codegen": {
+    "language": "typescript",
+    "framework": "none",
+    "browser": false
+  }
+}
