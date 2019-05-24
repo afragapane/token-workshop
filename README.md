@@ -1,44 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## SmartContract Workshop
+The starter code for the next NEO-ONE SmartContract Workshop.  This repo contains a simple Token SmartContract under `one/contracts/Token.ts` and tests of that Token running on a private, local NEO blockchain under `src/__tests__/Token.test.ts`.  The goal of this workshop will be to flesh out this Token by adding your own features to it.
 
-## Available Scripts
+### Requirements
 
-In the project directory, you can run:
+- Install NodeJs >= 8.9.0. Note I have used version 10.13 for this project.
+    - For Linux & Mac we recommend [Node Version Manager](https://github.com/nvm-sh/nvm#installation-and-update).
+    - For Windows we recommend using [Chocolatey](https://chocolatey.org/).
+- The npm package manager comes with NodeJs and can be used to run commands. I will be using [yarn](https://yarnpkg.com/en/). Feel free to use whatever you prefer.
 
-### `npm start`
+### Confirm the Token Works
+If you'd like to build the Token yourself, we encourage you to head to [neo-one.io](https://neo-one.io) and complete the first online course or the tutorial which walk through the construction of this basic Token SmartContract. If not, this repo and the below instructions are all you need to participate in the upcoming workshop!.  
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Fork and clone this repository.
+2. cd into the newly created `token-workshop` directory.
+3. `yarn install` or `npm install` to load all dependencies.
+4. `yarn neo-one build` or `npm neo-one build` will start a neo-one local blockchain, deploy the Token contract contained in `one/contracts/Token.ts` to the blockchain, and setup some helper utilities for working with the Token.  You should see a series of green checks if the command succeeds. 
+5. `yarn test` or `npm test` will test your Token on a local blockchain by running the tests in `src/__tests__/Token.test.ts`.  You should see four green checks if the tests pass.
+6.  That's it! If you've made it this far you have a working token smart contract and are ready to add more.  If you have problems with any of the above steps, please feel free to look through our tutorials and documentation at [neo-one.io](https://neo-one.io) or reach our to us with questions on our [NEO-ONE Discord](https://discordapp.com/invite/S86PqDE). 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
