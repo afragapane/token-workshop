@@ -1,8 +1,8 @@
-/* @hash 242aff38a2a8e27ee9f82b7ae50a4741 */
+/* @hash cae8788748751a88804e57ead5ad63e7 */
 // tslint:disable
 /* eslint-disable */
 /**
- * @projectID ywkZpAXw-YFFhb2eAu0oM
+ * @projectID ywk
  */
 
-export const projectID = 'ywkZpAXw-YFFhb2eAu0oM';
+export const projectID = 'ywk';

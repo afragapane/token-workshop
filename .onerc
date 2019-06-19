@@ -1,7 +1,7 @@
 {
   "paths": {
-    "contracts": "/Users/alexfrag/Documents/Development/NEO/Workshops/token-workshop/one/contracts",
-    "generated": "/Users/alexfrag/Documents/Development/NEO/Workshops/token-workshop/one/generated"
+    "contracts": "one/contracts",
+    "generated": "one/generated"
   },
   "codegen": {
     "language": "typescript",

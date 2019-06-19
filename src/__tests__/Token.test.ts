@@ -40,7 +40,8 @@ describe('Token', () => {
     })
 
     test('transfer + mintTokens', async () => {
-        await withContracts(async ({token, accountIDs}) => {
+        await withContracts(async ({escrow, accountIDs}) => {
+            const account1 = accountIDs[1];
             const account = accountIDs[2];
             const amount = new BigNumber(10);
 

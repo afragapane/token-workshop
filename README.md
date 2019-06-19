@@ -1,5 +1,5 @@
 ## SmartContract Workshop
-The starter code for the next NEO-ONE SmartContract Workshop.  This repo contains a simple Token SmartContract under `one/contracts/Token.ts` and tests of that Token running on a private, local NEO blockchain under `src/__tests__/Token.test.ts`.  The goal of this workshop will be to flesh out this Token by adding your own features to it.
+This contains the Escrow Contract we finished at the end of the Smart Contract Workshop.  
 
 ### Requirements
 
@@ -8,7 +8,7 @@ The starter code for the next NEO-ONE SmartContract Workshop.  This repo contain
     - For Windows we recommend using [Chocolatey](https://chocolatey.org/).
 - The npm package manager comes with NodeJs and can be used to run commands. I will be using [yarn](https://yarnpkg.com/en/). Feel free to use whatever you prefer.
 
-### Confirm the Token Works
+### Confirm the Token Works (Pre-Workshop setup)
 If you'd like to build the Token yourself, we encourage you to head to [neo-one.io](https://neo-one.io) and complete the first online course or the tutorial which walk through the construction of this basic Token SmartContract. If not, this repo and the below instructions are all you need to participate in the upcoming workshop!.  
 
 1. Fork and clone this repository.
